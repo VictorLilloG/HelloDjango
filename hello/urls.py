@@ -20,4 +20,5 @@ urlpatterns = [
     path('', include('polls.urls')),
     path('pages/', include('pages.urls')),
     path('admin/', admin.site.urls),
+    path('board/', include('posts.urls')),
 ]
